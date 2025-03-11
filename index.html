@@ -10,9 +10,9 @@
 <body>
     <h1>Static Calculator</h1>
     <h2>enter a list of comma-separated numbers</h2>
-    <form onSubmit=''>
+    <form onsubmit="calculate(); return false;">
         <label for="numbers">Numbers:</label>
-        <input type="number" 
+        <input type="text" 
         placeholder="enter numbers"
         name="numbers" id="numbers"/>
         <button type="submit">
@@ -50,5 +50,6 @@
         </p>
         <p class="bold">Standard Deviation: <span id="standardDeviation"></span></p>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
