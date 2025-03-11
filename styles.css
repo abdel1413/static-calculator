@@ -1,0 +1,36 @@
+*,
+*::before,
+body {
+  background-color: rgb(27, 27, 50);
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+input {
+  border: 1px solid rgb(59, 59, 79);
+  background-color: rgb(10, 10, 35);
+  cursor: pointer;
+  padding: 0.2rem;
+  margin: 0 7px;
+}
+
+button {
+  background-color: rgb(59, 59, 79);
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+h1 {
+  margin: 20px 0;
+
+  font-size: 2.5rem;
+}
+h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 15px;
+}
